@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>October Cybersecurity Scavenger Hunt Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        input[type="submit"], .google-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"]:hover, .google-button:hover {
+            background-color: #45a049;
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 15px
+        }
+
+        .google-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .google-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+      <div class="container">
+          <h1>October CyberSecurity Scavenger Hunt Login</h1>
+          <form method="post">
+              <input type="text" id="username" name="username" placeholder="Username" required>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              <input type="submit" value="Login">
+          </form>
+          <div class="google-button">
+              <i class="fab fa-google google-icon"></i>
+              <button onclick="signInWithGoogle()">Sign In with Google</button>
+          </div>
+      </div>
+    </div>
+    <script>
+        function signInWithGoogle() {
+          alert("You should probably check that this is an approved vendor before signing in with Google!");
+        }
+    </script>
+</body>
+</html>
