@@ -1,2 +1,7 @@
-# october-scavenger-hunt
-October Scavenger Hunt Instructions
+# October Scavenger Hunt Instructions
+
+Congratulations! You've discovered the second stage of the scavenger hunt!
+
+The next step is to sign into the [October Cybersecurity Awareness Month Scavenger Hunt Service].
+
+
